@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketCard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+
+        <div class="box-card">
+            <p class="text title-card">Compartilhe seu #rocketcard</p>
+            <div class="card" id="card">
+                <div class="inner-card">
+                    <div class="logo-name">
+                        <img src="./img/logo.svg" alt="Logo da Rocketseat">
+                        <p class="text" id="userName">Login</p>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="box-image">
+                            <img id="userAvatar" src="img/userAvatar.svg" alt="Avatar do user 'birobirobiro'" >
+                        </div>
+                        <div class="details">
+                            <div class="details-content">
+                                <img src="./img/followers.svg" alt="">
+                                <p class="text description" id="userFollowers">Followers</p>
+                            </div>
+                            <div class="details-content">
+                                <img src="/img/following.svg" alt="">
+                                <p class="text description" id="userFollowing">Following</p>
+                            </div>
+                            <div class="details-content">
+                                <img src="/img/repository.svg" alt="">
+                                <p class="text description" id="userRepos">Repositories</p>
+                            </div>
+                            <div class="details-content">
+                                <img src="./img/company.svg" alt="">
+                                <p class="text description" id="userCompany">Company</p>
+                            </div>
+                            <div class="details-content">
+                                <img src="./img/location.svg" alt="">
+                                <p class="text description" id="userLocation">Location</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-footer">
+                        <img id="logo-rocketcard" src="./img/rocketCard.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="box-button">
+            <p class="text">Customizar Rocketcard</p>
+            <button id="change-color" onclick="changeColor();" >Mudar Background</button>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
